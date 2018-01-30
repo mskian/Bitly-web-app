@@ -25,6 +25,7 @@ include('class.php');
 <?php $current_page = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
  echo '<link rel="canonical" href="'.$current_page.'"/>'; ?>
 
+
 <!-- CSS and Fonts -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -50,7 +51,9 @@ include('class.php');
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-sm-8 col-sm-offset-2 text">
+
 <h1>Welcome</h1>
+
 </div>
 </div>
 </div>
@@ -61,8 +64,7 @@ include('class.php');
 <div class="col-lg-6 col-lg-offset-3 centered">
 
 <div class="form-bottom">
-<div class="form-group">
-<form action="" method="post">
+<form action="" method="post" class="login-form">
 <div class="form-group">
 <input type="text" required id="url" name="url" class="form-username form-control" placeholder="Enter your Url" />
 </div>
@@ -70,7 +72,7 @@ include('class.php');
 <span class="help-block has-error" id="url_error"></span>
 <button type="submit" value="Get Short URL" id="short_url_btn" data-loading-text="Getting Short URL..." class="btn">Create Now</button>
 </div>
-</div>
+</form>
 </div>
 
 </div>
@@ -100,8 +102,7 @@ echo "<div class='text-center card card-body bg-light'><code>Your Short URL : $s
 </div>
 </div>
 </div>
-</div>
-<br />	
+<br />
 
 <div class="container">		
 <div class="row justify-content-center">

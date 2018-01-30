@@ -85,7 +85,7 @@ session_start(); /* Starts the session */
 <div class="form-group">
 <input name="Password" id="password" type="password" class="form-username form-control" placeholder="Enter your password">
 </div>
-<button name="Submit" type="submit" value="Login" class="btn" value="Login">Log in</button>
+<button name="Submit" type="submit" class="btn">Log in</button>
 </form>
 </div>
 
