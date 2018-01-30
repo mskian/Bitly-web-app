@@ -1,8 +1,8 @@
 <?php
 
-// Bitly General Access Token & username
+// Bitly Generic access token & username
 $username = 'YOUR BITLY USERNAME';
-$key = 'YOUR GENERAL ACCESS TOKEN';
+$key = 'YOUR GENERIC ACCESS TOKEN';
 $api = new BitlyAPI($username, $key);
 
 class BitlyAPI
