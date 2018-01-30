@@ -4,7 +4,7 @@ Bitly Web APP - PHP URL Shortner using Bitly API v3
 
 ## Requirements
 
-- Bitly New API 3 - GENERAL ACCESS TOKEN
+- Bitly New API 3 - GENERIC ACCESS TOKEN
 - PHP cURL
 - PHP 5.6, PHP 7 or Greater Version
 
@@ -16,9 +16,9 @@ Bitly Web APP - PHP URL Shortner using Bitly API v3
 
 ## Setup
 
-- Get **GENERAL ACCESS TOKEN** from your Bitly account
+- Get **GENERIC ACCESS TOKEN** from your Bitly account
 - Open `class.php`
-- find this line `// Bitly General Access Token & username`
+- find this line `// Bitly Generic access token & username`
 - Enter your Bitly Account username & Access Token
 - Next open `login.php`
 - Find the line `$logins = array('admin' => '123456');`
